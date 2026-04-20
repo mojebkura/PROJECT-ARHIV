@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +8,16 @@
     <title>Batman:Arkham City</title>
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-        <img src="/images/batmanACback.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Batman Arkham City</h5>
-            <p class="card-text">Статья о игре Batman .</p>
-            <a href="/index.php" class="btn btn-primary">Назад</a>
-        </div>        
+    <divf class="card" style="width: 18rem;"></divf>
+<div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">Batman Arkham City</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        </div>
+        <div class="offcanvas-body">
     </div>
+    О игре batman arkham city
+</div>
+</div>
 </body>
 </html>

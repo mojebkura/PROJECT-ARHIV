@@ -24,31 +24,13 @@ try {
     <h1 class="text-center">Список игр</h1>
     <table class="table table-bordered table-striped" style="border-collapse: collapse;" border="3" cellpadding="10">
                 <thead style="background-color: #f2f2f2;">
-                    <tr>
-                        <th align="left">ID</th>
-                        <th align="left">название</th>
-                        <th align="left">дата</th>
-                        <th align="left">разработчик</th>
-                        <th align="center">издатель</th>
-                        <th align="center">Действие</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php foreach($games as $game): ?>
-                    <tr>
-                        <th><?php echo $game['id'] ?></th>
-                        <th><?php echo $game['game_name_id'] ?></th>
-                        <th><?php echo $game['release_date_id'] ?></th>
-                        <th><?php echo $game['developer_id'] ?></th>
-                        <th><?php echo $game['publisher_id'] ?></th>
-                        <th>
-                            <a href="./BatmanAC/batmanAC.php" class="btn btn-info">Узнать подробнее</a>
-                        </th>
-                    </tr>
-                    <?php endforeach; ?>
-                </tbody>
-            </table>
-            </div>
+        <div class="card" style="width: 18rem;">
+        <img src="/images/batmanAC.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Batman: Arkham City</h5>
+            <p class="card-text">О игре Batman Arkham City.</p>
+            <a href="/BatmanAC/batmanAC.php" class="btn btn-primary">Подробнее</a>
+        </div>        
     </div>
 </body>
 </html>
